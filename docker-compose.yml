@@ -5,7 +5,7 @@ services:
     image: deepseek-vl2
     build: .
     ports:
-      - "8080:8080"
+      - "4040:4040"
     deploy:
       resources:
         reservations:
